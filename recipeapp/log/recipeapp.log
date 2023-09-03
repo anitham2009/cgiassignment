@@ -1,0 +1,386 @@
+2023-09-03 08:22:58.694  INFO 30440 --- [main] com.cgi.recipe.RecipeApplication         : Starting RecipeApplication using Java 17.0.8 on DESKTOP-6VS4LIF with PID 30440 (D:\Anitha\AnithaLearningDocs\CGI\cginederlandassessment-recipe-cgi-assessment-1-6b253eafb18a\recipeapp\target\classes started by Pari Paramasivam in D:\Anitha\AnithaLearningDocs\CGI\cginederlandassessment-recipe-cgi-assessment-1-6b253eafb18a\recipeapp)
+2023-09-03 08:22:58.697  INFO 30440 --- [main] com.cgi.recipe.RecipeApplication         : No active profile set, falling back to 1 default profile: "default"
+2023-09-03 08:22:59.475  INFO 30440 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8004 (http)
+2023-09-03 08:22:59.483  INFO 30440 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-09-03 08:22:59.493  INFO 30440 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.73]
+2023-09-03 08:22:59.585  INFO 30440 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-09-03 08:22:59.585  INFO 30440 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 857 ms
+2023-09-03 08:23:00.288  INFO 30440 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8004 (http) with context path ''
+2023-09-03 08:23:00.297  INFO 30440 --- [main] com.cgi.recipe.RecipeApplication         : Started RecipeApplication in 1.916 seconds (JVM running for 2.216)
+2023-09-03 08:23:46.265  INFO 30440 --- [http-nio-8004-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-09-03 08:23:46.266  INFO 30440 --- [http-nio-8004-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-09-03 08:23:46.266  INFO 30440 --- [http-nio-8004-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2023-09-03 08:23:46.920  INFO 30440 --- [http-nio-8004-exec-1] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 241 ms
+2023-09-03 08:24:09.278  INFO 30440 --- [http-nio-8004-exec-5] c.c.r.s.impl.GetRecipeInfoServiceImpl    : Retrived record class com.cgi.recipe.service.impl.GetRecipeInfoServiceImpl
+2023-09-03 08:26:46.776  INFO 31192 --- [main] com.cgi.recipe.RecipeApplication         : Starting RecipeApplication using Java 17.0.8 on DESKTOP-6VS4LIF with PID 31192 (D:\Anitha\AnithaLearningDocs\CGI\cginederlandassessment-recipe-cgi-assessment-1-6b253eafb18a\recipeapp\target\classes started by Pari Paramasivam in D:\Anitha\AnithaLearningDocs\CGI\cginederlandassessment-recipe-cgi-assessment-1-6b253eafb18a\recipeapp)
+2023-09-03 08:26:46.778  INFO 31192 --- [main] com.cgi.recipe.RecipeApplication         : No active profile set, falling back to 1 default profile: "default"
+2023-09-03 08:26:47.541  INFO 31192 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8004 (http)
+2023-09-03 08:26:47.549  INFO 31192 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-09-03 08:26:47.549  INFO 31192 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.73]
+2023-09-03 08:26:47.647  INFO 31192 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-09-03 08:26:47.647  INFO 31192 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 840 ms
+2023-09-03 08:26:48.337  INFO 31192 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8004 (http) with context path ''
+2023-09-03 08:26:48.345  INFO 31192 --- [main] com.cgi.recipe.RecipeApplication         : Started RecipeApplication in 1.859 seconds (JVM running for 2.129)
+2023-09-03 08:26:54.414  INFO 31192 --- [http-nio-8004-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-09-03 08:26:54.414  INFO 31192 --- [http-nio-8004-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-09-03 08:26:54.416  INFO 31192 --- [http-nio-8004-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2023-09-03 08:26:54.933  INFO 31192 --- [http-nio-8004-exec-4] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 268 ms
+2023-09-03 08:28:19.756  INFO 31192 --- [http-nio-8004-exec-7] c.c.r.s.impl.GetRecipeInfoServiceImpl    : Retrived record class com.cgi.recipe.service.impl.GetRecipeInfoServiceImpl
+2023-09-03 08:28:29.562  INFO 31192 --- [http-nio-8004-exec-8] c.c.r.s.impl.GetRecipeInfoServiceImpl    : Retrived record class com.cgi.recipe.service.impl.GetRecipeInfoServiceImpl
+2023-09-03 14:56:07.152  INFO 22608 --- [main] c.c.r.resource.RecipeAppControllerIT     : Starting RecipeAppControllerIT using Java 17.0.8 on DESKTOP-6VS4LIF with PID 22608 (started by Pari Paramasivam in D:\Anitha\AnithaLearningDocs\CGI\cginederlandassessment-recipe-cgi-assessment-1-6b253eafb18a\recipeapp)
+2023-09-03 14:56:07.154  INFO 22608 --- [main] c.c.r.resource.RecipeAppControllerIT     : No active profile set, falling back to 1 default profile: "default"
+2023-09-03 14:56:08.477  INFO 22608 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 0 (http)
+2023-09-03 14:56:08.490  INFO 22608 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-09-03 14:56:08.491  INFO 22608 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.73]
+2023-09-03 14:56:08.634  INFO 22608 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-09-03 14:56:08.635  INFO 22608 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1460 ms
+2023-09-03 14:56:09.963  INFO 22608 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring TestDispatcherServlet ''
+2023-09-03 14:56:09.963  INFO 22608 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2023-09-03 14:56:09.965  INFO 22608 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
+2023-09-03 14:56:10.039  INFO 22608 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 64700 (http) with context path ''
+2023-09-03 14:56:10.052  INFO 22608 --- [main] c.c.r.resource.RecipeAppControllerIT     : Started RecipeAppControllerIT in 3.331 seconds (JVM running for 6.081)
+2023-09-03 14:56:10.205  INFO 22608 --- [main] c.c.r.s.impl.GetRecipeInfoServiceImpl    : Retrived record class com.cgi.recipe.service.impl.GetRecipeInfoServiceImpl
+2023-09-03 14:56:10.206 ERROR 22608 --- [main] c.c.r.s.impl.GetRecipeInfoServiceImpl    : Recipe Not Found Exception class com.cgi.recipe.service.impl.GetRecipeInfoServiceImpl
+2023-09-03 14:56:10.270  INFO 22608 --- [main] c.c.r.s.impl.GetRecipeInfoServiceImpl    : Retrived record class com.cgi.recipe.service.impl.GetRecipeInfoServiceImpl
+2023-09-03 15:00:28.379  INFO 37692 --- [main] com.cgi.recipe.RecipeApplication         : Starting RecipeApplication using Java 17.0.8 on DESKTOP-6VS4LIF with PID 37692 (D:\Anitha\AnithaLearningDocs\CGI\cginederlandassessment-recipe-cgi-assessment-1-6b253eafb18a\recipeapp\target\classes started by Pari Paramasivam in D:\Anitha\AnithaLearningDocs\CGI\cginederlandassessment-recipe-cgi-assessment-1-6b253eafb18a\recipeapp)
+2023-09-03 15:00:28.381  INFO 37692 --- [main] com.cgi.recipe.RecipeApplication         : No active profile set, falling back to 1 default profile: "default"
+2023-09-03 15:00:29.251  INFO 37692 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8004 (http)
+2023-09-03 15:00:29.262  INFO 37692 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-09-03 15:00:29.262  INFO 37692 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.73]
+2023-09-03 15:00:29.365  INFO 37692 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-09-03 15:00:29.366  INFO 37692 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 952 ms
+2023-09-03 15:00:30.101  INFO 37692 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8004 (http) with context path ''
+2023-09-03 15:00:30.109  INFO 37692 --- [main] com.cgi.recipe.RecipeApplication         : Started RecipeApplication in 2.068 seconds (JVM running for 2.402)
+2023-09-03 15:16:26.511  INFO 6956 --- [main] com.cgi.recipe.RecipeApplication         : Starting RecipeApplication using Java 17.0.8 on DESKTOP-6VS4LIF with PID 6956 (D:\Anitha\AnithaLearningDocs\CGI\cginederlandassessment-recipe-cgi-assessment-1-6b253eafb18a\recipeapp\target\classes started by Pari Paramasivam in D:\Anitha\AnithaLearningDocs\CGI\cginederlandassessment-recipe-cgi-assessment-1-6b253eafb18a\recipeapp)
+2023-09-03 15:16:26.513  INFO 6956 --- [main] com.cgi.recipe.RecipeApplication         : No active profile set, falling back to 1 default profile: "default"
+2023-09-03 15:16:27.420  INFO 6956 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8004 (http)
+2023-09-03 15:16:27.431  INFO 6956 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-09-03 15:16:27.432  INFO 6956 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.73]
+2023-09-03 15:16:27.539  INFO 6956 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-09-03 15:16:27.539  INFO 6956 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 993 ms
+2023-09-03 15:16:28.290  INFO 6956 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8004 (http) with context path ''
+2023-09-03 15:16:28.298  INFO 6956 --- [main] com.cgi.recipe.RecipeApplication         : Started RecipeApplication in 2.13 seconds (JVM running for 2.45)
+2023-09-03 15:16:37.350  INFO 6956 --- [http-nio-8004-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-09-03 15:16:37.350  INFO 6956 --- [http-nio-8004-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-09-03 15:16:37.352  INFO 6956 --- [http-nio-8004-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2023-09-03 15:16:37.859  INFO 6956 --- [http-nio-8004-exec-4] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 275 ms
+2023-09-03 15:16:42.629  INFO 6956 --- [http-nio-8004-exec-3] c.c.r.s.impl.GetRecipeInfoServiceImpl    : Properties: [file [D:\Anitha\AnithaLearningDocs\CGI\cginederlandassessment-recipe-cgi-assessment-1-6b253eafb18a\recipeapp\..\src\main\resources\recepie.json]]
+2023-09-03 15:26:25.086  INFO 31440 --- [main] com.cgi.recipe.RecipeApplication         : Starting RecipeApplication using Java 17.0.8 on DESKTOP-6VS4LIF with PID 31440 (D:\Anitha\AnithaLearningDocs\CGI\cginederlandassessment-recipe-cgi-assessment-1-6b253eafb18a\recipeapp\target\classes started by Pari Paramasivam in D:\Anitha\AnithaLearningDocs\CGI\cginederlandassessment-recipe-cgi-assessment-1-6b253eafb18a\recipeapp)
+2023-09-03 15:26:25.088  INFO 31440 --- [main] com.cgi.recipe.RecipeApplication         : No active profile set, falling back to 1 default profile: "default"
+2023-09-03 15:26:25.728  INFO 31440 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8004 (http)
+2023-09-03 15:26:25.735  INFO 31440 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-09-03 15:26:25.736  INFO 31440 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.73]
+2023-09-03 15:26:25.804  INFO 31440 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-09-03 15:26:25.804  INFO 31440 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 683 ms
+2023-09-03 15:26:26.328  WARN 31440 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8004 is already in use
+2023-09-03 15:26:26.331  INFO 31440 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-09-03 15:26:26.342  INFO 31440 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2023-09-03 15:26:26.350 ERROR 31440 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8004 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8004 or configure this application to listen on another port.
+
+2023-09-03 15:26:37.713  INFO 28256 --- [main] com.cgi.recipe.RecipeApplication         : Starting RecipeApplication using Java 17.0.8 on DESKTOP-6VS4LIF with PID 28256 (D:\Anitha\AnithaLearningDocs\CGI\cginederlandassessment-recipe-cgi-assessment-1-6b253eafb18a\recipeapp\target\classes started by Pari Paramasivam in D:\Anitha\AnithaLearningDocs\CGI\cginederlandassessment-recipe-cgi-assessment-1-6b253eafb18a\recipeapp)
+2023-09-03 15:26:37.715  INFO 28256 --- [main] com.cgi.recipe.RecipeApplication         : No active profile set, falling back to 1 default profile: "default"
+2023-09-03 15:26:38.349  INFO 28256 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8004 (http)
+2023-09-03 15:26:38.354  INFO 28256 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-09-03 15:26:38.354  INFO 28256 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.73]
+2023-09-03 15:26:38.418  INFO 28256 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-09-03 15:26:38.418  INFO 28256 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 666 ms
+2023-09-03 15:26:38.941  INFO 28256 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8004 (http) with context path ''
+2023-09-03 15:26:38.949  INFO 28256 --- [main] com.cgi.recipe.RecipeApplication         : Started RecipeApplication in 1.503 seconds (JVM running for 1.934)
+2023-09-03 15:26:52.596  INFO 28256 --- [http-nio-8004-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-09-03 15:26:52.597  INFO 28256 --- [http-nio-8004-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-09-03 15:26:52.598  INFO 28256 --- [http-nio-8004-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-09-03 15:26:53.116  INFO 28256 --- [http-nio-8004-exec-2] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 166 ms
+2023-09-03 15:26:57.812  INFO 28256 --- [http-nio-8004-exec-5] c.c.r.s.impl.GetRecipeInfoServiceImpl    : Properties: [file [D:\Anitha\AnithaLearningDocs\CGI\cginederlandassessment-recipe-cgi-assessment-1-6b253eafb18a\recipeapp\..\src\main\resources\recepie.json]]
+2023-09-03 15:26:57.824 ERROR 28256 --- [http-nio-8004-exec-5] com.cgi.recipe.util.CommonUtil           : Error occurred in retrieveRecipessrc\main\resources\receipe.json (The system cannot find the file specified) class com.cgi.recipe.util.CommonUtil
+2023-09-03 15:34:31.570  INFO 31568 --- [main] com.cgi.recipe.RecipeApplication         : Starting RecipeApplication using Java 17.0.8 on DESKTOP-6VS4LIF with PID 31568 (D:\Anitha\AnithaLearningDocs\CGI\cginederlandassessment-recipe-cgi-assessment-1-6b253eafb18a\recipeapp\target\classes started by Pari Paramasivam in D:\Anitha\AnithaLearningDocs\CGI\cginederlandassessment-recipe-cgi-assessment-1-6b253eafb18a\recipeapp)
+2023-09-03 15:34:31.572  INFO 31568 --- [main] com.cgi.recipe.RecipeApplication         : No active profile set, falling back to 1 default profile: "default"
+2023-09-03 15:34:32.183  INFO 31568 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8004 (http)
+2023-09-03 15:34:32.191  INFO 31568 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-09-03 15:34:32.191  INFO 31568 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.73]
+2023-09-03 15:34:32.277  INFO 31568 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-09-03 15:34:32.277  INFO 31568 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 674 ms
+2023-09-03 15:34:32.829  WARN 31568 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8004 is already in use
+2023-09-03 15:34:32.831  INFO 31568 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-09-03 15:34:32.843  INFO 31568 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2023-09-03 15:34:32.852 ERROR 31568 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8004 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8004 or configure this application to listen on another port.
+
+2023-09-03 15:34:37.912  INFO 28256 --- [RMI TCP Connection(11)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2023-09-03 15:34:37.927  INFO 28256 --- [RMI TCP Connection(11)-127.0.0.1] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-09-03 15:34:37.928  INFO 28256 --- [RMI TCP Connection(11)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-09-03 15:34:44.242  INFO 24176 --- [main] com.cgi.recipe.RecipeApplication         : Starting RecipeApplication using Java 17.0.8 on DESKTOP-6VS4LIF with PID 24176 (D:\Anitha\AnithaLearningDocs\CGI\cginederlandassessment-recipe-cgi-assessment-1-6b253eafb18a\recipeapp\target\classes started by Pari Paramasivam in D:\Anitha\AnithaLearningDocs\CGI\cginederlandassessment-recipe-cgi-assessment-1-6b253eafb18a\recipeapp)
+2023-09-03 15:34:44.245  INFO 24176 --- [main] com.cgi.recipe.RecipeApplication         : No active profile set, falling back to 1 default profile: "default"
+2023-09-03 15:34:44.839  INFO 24176 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8004 (http)
+2023-09-03 15:34:44.845  INFO 24176 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-09-03 15:34:44.845  INFO 24176 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.73]
+2023-09-03 15:34:44.923  INFO 24176 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-09-03 15:34:44.923  INFO 24176 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 648 ms
+2023-09-03 15:34:45.407  INFO 24176 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8004 (http) with context path ''
+2023-09-03 15:34:45.414  INFO 24176 --- [main] com.cgi.recipe.RecipeApplication         : Started RecipeApplication in 1.41 seconds (JVM running for 1.834)
+2023-09-03 15:34:50.649  INFO 24176 --- [http-nio-8004-exec-3] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-09-03 15:34:50.649  INFO 24176 --- [http-nio-8004-exec-3] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-09-03 15:34:50.650  INFO 24176 --- [http-nio-8004-exec-3] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-09-03 15:34:51.439  INFO 24176 --- [http-nio-8004-exec-1] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 186 ms
+2023-09-03 15:34:55.246  INFO 24176 --- [http-nio-8004-exec-8] c.c.r.s.impl.GetRecipeInfoServiceImpl    : Properties: [file [D:\Anitha\AnithaLearningDocs\CGI\cginederlandassessment-recipe-cgi-assessment-1-6b253eafb18a\recipeapp\..\src\main\resources\recepie.json]]
+2023-09-03 15:34:55.251 ERROR 24176 --- [http-nio-8004-exec-8] com.cgi.recipe.util.CommonUtil           : Error occurred in retrieveRecipesclasspath:receipe.json (The system cannot find the file specified) class com.cgi.recipe.util.CommonUtil
+2023-09-03 15:35:17.309  INFO 24176 --- [RMI TCP Connection(4)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2023-09-03 15:35:17.318  INFO 24176 --- [RMI TCP Connection(4)-127.0.0.1] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-09-03 15:35:17.319  INFO 24176 --- [RMI TCP Connection(4)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-09-03 15:42:13.561  INFO 35380 --- [main] com.cgi.recipe.RecipeApplication         : Starting RecipeApplication using Java 17.0.8 on DESKTOP-6VS4LIF with PID 35380 (D:\Anitha\AnithaLearningDocs\CGI\cginederlandassessment-recipe-cgi-assessment-1-6b253eafb18a\recipeapp\target\classes started by Pari Paramasivam in D:\Anitha\AnithaLearningDocs\CGI\cginederlandassessment-recipe-cgi-assessment-1-6b253eafb18a\recipeapp)
+2023-09-03 15:42:13.564  INFO 35380 --- [main] com.cgi.recipe.RecipeApplication         : No active profile set, falling back to 1 default profile: "default"
+2023-09-03 15:42:14.400  INFO 35380 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8004 (http)
+2023-09-03 15:42:14.412  INFO 35380 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-09-03 15:42:14.412  INFO 35380 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.73]
+2023-09-03 15:42:14.516  INFO 35380 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-09-03 15:42:14.516  INFO 35380 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 917 ms
+2023-09-03 15:42:15.197  INFO 35380 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8004 (http) with context path ''
+2023-09-03 15:42:15.206  INFO 35380 --- [main] com.cgi.recipe.RecipeApplication         : Started RecipeApplication in 1.988 seconds (JVM running for 2.303)
+2023-09-03 15:42:22.015  INFO 35380 --- [http-nio-8004-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-09-03 15:42:22.016  INFO 35380 --- [http-nio-8004-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-09-03 15:42:22.016  INFO 35380 --- [http-nio-8004-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2023-09-03 15:42:22.638  INFO 35380 --- [http-nio-8004-exec-1] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 320 ms
+2023-09-03 15:43:14.689  INFO 26372 --- [main] com.cgi.recipe.RecipeApplication         : Starting RecipeApplication using Java 17.0.8 on DESKTOP-6VS4LIF with PID 26372 (D:\Anitha\AnithaLearningDocs\CGI\cginederlandassessment-recipe-cgi-assessment-1-6b253eafb18a\recipeapp\target\classes started by Pari Paramasivam in D:\Anitha\AnithaLearningDocs\CGI\cginederlandassessment-recipe-cgi-assessment-1-6b253eafb18a\recipeapp)
+2023-09-03 15:43:14.691  INFO 26372 --- [main] com.cgi.recipe.RecipeApplication         : No active profile set, falling back to 1 default profile: "default"
+2023-09-03 15:43:15.572  INFO 26372 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8004 (http)
+2023-09-03 15:43:15.583  INFO 26372 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-09-03 15:43:15.583  INFO 26372 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.73]
+2023-09-03 15:43:15.693  INFO 26372 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-09-03 15:43:15.693  INFO 26372 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 967 ms
+2023-09-03 15:43:16.418  INFO 26372 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8004 (http) with context path ''
+2023-09-03 15:43:16.428  INFO 26372 --- [main] com.cgi.recipe.RecipeApplication         : Started RecipeApplication in 2.086 seconds (JVM running for 2.371)
+2023-09-03 15:43:30.687  INFO 26372 --- [http-nio-8004-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-09-03 15:43:30.687  INFO 26372 --- [http-nio-8004-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-09-03 15:43:30.687  INFO 26372 --- [http-nio-8004-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2023-09-03 15:43:31.595  INFO 26372 --- [http-nio-8004-exec-4] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 575 ms
+2023-09-03 15:43:50.506  INFO 27908 --- [main] c.c.r.resource.RecipeAppControllerIT     : Starting RecipeAppControllerIT using Java 17.0.8 on DESKTOP-6VS4LIF with PID 27908 (started by Pari Paramasivam in D:\Anitha\AnithaLearningDocs\CGI\cginederlandassessment-recipe-cgi-assessment-1-6b253eafb18a\recipeapp)
+2023-09-03 15:43:50.508  INFO 27908 --- [main] c.c.r.resource.RecipeAppControllerIT     : No active profile set, falling back to 1 default profile: "default"
+2023-09-03 15:43:51.718  INFO 27908 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 0 (http)
+2023-09-03 15:43:51.736  INFO 27908 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-09-03 15:43:51.736  INFO 27908 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.73]
+2023-09-03 15:43:51.881  INFO 27908 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-09-03 15:43:51.881  INFO 27908 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1354 ms
+2023-09-03 15:43:53.150  INFO 27908 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring TestDispatcherServlet ''
+2023-09-03 15:43:53.151  INFO 27908 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2023-09-03 15:43:53.152  INFO 27908 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
+2023-09-03 15:43:53.216  INFO 27908 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 50105 (http) with context path ''
+2023-09-03 15:43:53.232  INFO 27908 --- [main] c.c.r.resource.RecipeAppControllerIT     : Started RecipeAppControllerIT in 3.1 seconds (JVM running for 5.681)
+2023-09-03 15:43:53.372  INFO 27908 --- [main] c.c.r.s.impl.GetRecipeInfoServiceImpl    : Retrived record class com.cgi.recipe.service.impl.GetRecipeInfoServiceImpl
+2023-09-03 15:43:53.373 ERROR 27908 --- [main] c.c.r.s.impl.GetRecipeInfoServiceImpl    : Recipe Not Found Exception class com.cgi.recipe.service.impl.GetRecipeInfoServiceImpl
+2023-09-03 15:43:53.423  INFO 27908 --- [main] c.c.r.s.impl.GetRecipeInfoServiceImpl    : Retrived record class com.cgi.recipe.service.impl.GetRecipeInfoServiceImpl
+2023-09-03 15:53:37.241  INFO 3088 --- [main] com.cgi.recipe.RecipeApplication         : Starting RecipeApplication using Java 17.0.8 on DESKTOP-6VS4LIF with PID 3088 (D:\Anitha\AnithaLearningDocs\CGI\cginederlandassessment-recipe-cgi-assessment-1-6b253eafb18a\recipeapp\target\classes started by Pari Paramasivam in D:\Anitha\AnithaLearningDocs\CGI\cginederlandassessment-recipe-cgi-assessment-1-6b253eafb18a\recipeapp)
+2023-09-03 15:53:37.245  INFO 3088 --- [main] com.cgi.recipe.RecipeApplication         : No active profile set, falling back to 1 default profile: "default"
+2023-09-03 15:53:38.158  INFO 3088 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8004 (http)
+2023-09-03 15:53:38.169  INFO 3088 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-09-03 15:53:38.169  INFO 3088 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.73]
+2023-09-03 15:53:38.279  INFO 3088 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-09-03 15:53:38.279  INFO 3088 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1001 ms
+2023-09-03 15:53:39.049  INFO 3088 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8004 (http) with context path ''
+2023-09-03 15:53:39.060  INFO 3088 --- [main] com.cgi.recipe.RecipeApplication         : Started RecipeApplication in 2.169 seconds (JVM running for 2.456)
+2023-09-03 15:53:46.986  INFO 3088 --- [http-nio-8004-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-09-03 15:53:46.986  INFO 3088 --- [http-nio-8004-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-09-03 15:53:46.988  INFO 3088 --- [http-nio-8004-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2023-09-03 15:53:47.903  INFO 3088 --- [http-nio-8004-exec-5] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 356 ms
+2023-09-03 15:54:12.010  INFO 3088 --- [http-nio-8004-exec-6] c.c.r.s.impl.GetRecipeInfoServiceImpl    : Retrived record class com.cgi.recipe.service.impl.GetRecipeInfoServiceImpl
+2023-09-03 15:54:20.411  INFO 3088 --- [http-nio-8004-exec-7] c.c.r.s.impl.GetRecipeInfoServiceImpl    : Retrived record class com.cgi.recipe.service.impl.GetRecipeInfoServiceImpl
+2023-09-03 16:13:00.065  INFO 3504 --- [main] com.cgi.recipe.RecipeApplication         : Starting RecipeApplication using Java 11.0.17 on DESKTOP-6VS4LIF with PID 3504 (D:\Anitha\AnithaLearningDocs\CGI\cginederlandassessment-recipe-cgi-assessment-1-6b253eafb18a\recipeapp\target\classes started by Pari Paramasivam in D:\Anitha\AnithaLearningDocs\CGI\cginederlandassessment-recipe-cgi-assessment-1-6b253eafb18a\recipeapp)
+2023-09-03 16:13:00.065  INFO 3504 --- [main] com.cgi.recipe.RecipeApplication         : No active profile set, falling back to 1 default profile: "default"
+2023-09-03 16:13:00.842  INFO 3504 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8004 (http)
+2023-09-03 16:13:00.842  INFO 3504 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-09-03 16:13:00.842  INFO 3504 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.73]
+2023-09-03 16:13:00.907  INFO 3504 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-09-03 16:13:00.907  INFO 3504 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 810 ms
+2023-09-03 16:13:01.430  INFO 3504 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8004 (http) with context path ''
+2023-09-03 16:13:01.430  INFO 3504 --- [main] com.cgi.recipe.RecipeApplication         : Started RecipeApplication in 1.71 seconds (JVM running for 2.066)
+2023-09-03 16:13:26.920  INFO 3504 --- [http-nio-8004-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-09-03 16:13:26.920  INFO 3504 --- [http-nio-8004-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-09-03 16:13:26.920  INFO 3504 --- [http-nio-8004-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2023-09-03 16:13:27.714  INFO 3504 --- [http-nio-8004-exec-3] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 361 ms
+2023-09-03 16:13:58.860  INFO 3504 --- [http-nio-8004-exec-5] c.c.r.s.impl.GetRecipeInfoServiceImpl    : Retrived record class com.cgi.recipe.service.impl.GetRecipeInfoServiceImpl
+2023-09-03 17:12:05.575  INFO 30220 --- [main] c.c.r.resource.RecipeAppControllerIT     : Starting RecipeAppControllerIT using Java 17.0.8 on DESKTOP-6VS4LIF with PID 30220 (started by Pari Paramasivam in D:\Anitha\AnithaLearningDocs\CGI\cginederlandassessment-recipe-cgi-assessment-1-6b253eafb18a\recipeapp)
+2023-09-03 17:12:05.577  INFO 30220 --- [main] c.c.r.resource.RecipeAppControllerIT     : No active profile set, falling back to 1 default profile: "default"
+2023-09-03 17:12:06.912  INFO 30220 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 0 (http)
+2023-09-03 17:12:06.928  INFO 30220 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-09-03 17:12:06.929  INFO 30220 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.73]
+2023-09-03 17:12:07.079  INFO 30220 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-09-03 17:12:07.079  INFO 30220 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1479 ms
+2023-09-03 17:12:08.462  INFO 30220 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring TestDispatcherServlet ''
+2023-09-03 17:12:08.463  INFO 30220 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2023-09-03 17:12:08.464  INFO 30220 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
+2023-09-03 17:12:08.536  INFO 30220 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 52549 (http) with context path ''
+2023-09-03 17:12:08.547  INFO 30220 --- [main] c.c.r.resource.RecipeAppControllerIT     : Started RecipeAppControllerIT in 3.379 seconds (JVM running for 6.094)
+2023-09-03 17:12:08.705  INFO 30220 --- [main] c.c.r.s.impl.GetRecipeInfoServiceImpl    : Retrived record class com.cgi.recipe.service.impl.GetRecipeInfoServiceImpl
+2023-09-03 17:12:08.705 ERROR 30220 --- [main] c.c.r.s.impl.GetRecipeInfoServiceImpl    : Recipe Not Found Exception class com.cgi.recipe.service.impl.GetRecipeInfoServiceImpl
+2023-09-03 17:12:08.775  INFO 30220 --- [main] c.c.r.s.impl.GetRecipeInfoServiceImpl    : Retrived record class com.cgi.recipe.service.impl.GetRecipeInfoServiceImpl
+2023-09-03 17:15:18.655  INFO 32568 --- [main] com.cgi.recipe.RecipeApplication         : Starting RecipeApplication using Java 17.0.8 on DESKTOP-6VS4LIF with PID 32568 (D:\Anitha\AnithaLearningDocs\CGI\cginederlandassessment-recipe-cgi-assessment-1-6b253eafb18a\recipeapp\target\classes started by Pari Paramasivam in D:\Anitha\AnithaLearningDocs\CGI\cginederlandassessment-recipe-cgi-assessment-1-6b253eafb18a\recipeapp)
+2023-09-03 17:15:18.656  INFO 32568 --- [main] com.cgi.recipe.RecipeApplication         : No active profile set, falling back to 1 default profile: "default"
+2023-09-03 17:15:19.312  INFO 32568 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8004 (http)
+2023-09-03 17:15:19.316  INFO 32568 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-09-03 17:15:19.317  INFO 32568 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.73]
+2023-09-03 17:15:19.396  INFO 32568 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-09-03 17:15:19.396  INFO 32568 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 707 ms
+2023-09-03 17:15:19.901  WARN 32568 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8004 is already in use
+2023-09-03 17:15:19.903  INFO 32568 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-09-03 17:15:19.910  INFO 32568 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2023-09-03 17:15:19.922 ERROR 32568 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8004 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8004 or configure this application to listen on another port.
+
+2023-09-03 17:15:44.078  INFO 33408 --- [main] com.cgi.recipe.RecipeApplication         : Starting RecipeApplication using Java 17.0.8 on DESKTOP-6VS4LIF with PID 33408 (D:\Anitha\AnithaLearningDocs\CGI\cginederlandassessment-recipe-cgi-assessment-1-6b253eafb18a\recipeapp\target\classes started by Pari Paramasivam in D:\Anitha\AnithaLearningDocs\CGI\cginederlandassessment-recipe-cgi-assessment-1-6b253eafb18a\recipeapp)
+2023-09-03 17:15:44.094  INFO 33408 --- [main] com.cgi.recipe.RecipeApplication         : No active profile set, falling back to 1 default profile: "default"
+2023-09-03 17:15:44.676  INFO 33408 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8004 (http)
+2023-09-03 17:15:44.681  INFO 33408 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-09-03 17:15:44.681  INFO 33408 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.73]
+2023-09-03 17:15:44.763  INFO 33408 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-09-03 17:15:44.763  INFO 33408 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 640 ms
+2023-09-03 17:15:45.267  INFO 33408 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8004 (http) with context path ''
+2023-09-03 17:15:45.275  INFO 33408 --- [main] com.cgi.recipe.RecipeApplication         : Started RecipeApplication in 1.431 seconds (JVM running for 1.864)
+2023-09-03 17:15:52.122  INFO 33408 --- [http-nio-8004-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-09-03 17:15:52.122  INFO 33408 --- [http-nio-8004-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-09-03 17:15:52.122  INFO 33408 --- [http-nio-8004-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2023-09-03 17:15:52.658  INFO 33408 --- [http-nio-8004-exec-3] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 190 ms
+2023-09-03 17:16:13.996  INFO 33408 --- [http-nio-8004-exec-5] c.c.r.s.impl.GetRecipeInfoServiceImpl    : Retrived record class com.cgi.recipe.service.impl.GetRecipeInfoServiceImpl
+2023-09-03 17:16:24.530  INFO 33408 --- [RMI TCP Connection(4)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2023-09-03 17:16:24.557  INFO 33408 --- [RMI TCP Connection(4)-127.0.0.1] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-09-03 17:16:24.558  INFO 33408 --- [RMI TCP Connection(4)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-09-03 17:19:54.582  INFO 30204 --- [main] c.c.r.resource.RecipeAppControllerIT     : Starting RecipeAppControllerIT using Java 17.0.8 on DESKTOP-6VS4LIF with PID 30204 (started by Pari Paramasivam in D:\Anitha\AnithaLearningDocs\CGI\cginederlandassessment-recipe-cgi-assessment-1-6b253eafb18a\recipeapp)
+2023-09-03 17:19:54.583  INFO 30204 --- [main] c.c.r.resource.RecipeAppControllerIT     : No active profile set, falling back to 1 default profile: "default"
+2023-09-03 17:19:55.775  INFO 30204 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 0 (http)
+2023-09-03 17:19:55.789  INFO 30204 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-09-03 17:19:55.789  INFO 30204 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.73]
+2023-09-03 17:19:55.911  INFO 30204 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-09-03 17:19:55.911  INFO 30204 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1308 ms
+2023-09-03 17:19:57.020  INFO 30204 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring TestDispatcherServlet ''
+2023-09-03 17:19:57.020  INFO 30204 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2023-09-03 17:19:57.021  INFO 30204 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
+2023-09-03 17:19:57.075  INFO 30204 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 52755 (http) with context path ''
+2023-09-03 17:19:57.086  INFO 30204 --- [main] c.c.r.resource.RecipeAppControllerIT     : Started RecipeAppControllerIT in 2.875 seconds (JVM running for 5.138)
+2023-09-03 17:19:57.222  INFO 30204 --- [main] c.c.r.s.impl.GetRecipeInfoServiceImpl    : Retrived record class com.cgi.recipe.service.impl.GetRecipeInfoServiceImpl
+2023-09-03 17:19:57.222 ERROR 30204 --- [main] c.c.r.s.impl.GetRecipeInfoServiceImpl    : Recipe Not Found Exception class com.cgi.recipe.service.impl.GetRecipeInfoServiceImpl
+2023-09-03 17:19:57.270  INFO 30204 --- [main] c.c.r.s.impl.GetRecipeInfoServiceImpl    : Retrived record class com.cgi.recipe.service.impl.GetRecipeInfoServiceImpl
+2023-09-03 17:28:28.233  INFO 31984 --- [main] c.c.r.resource.RecipeAppControllerIT     : Starting RecipeAppControllerIT using Java 17.0.8 on DESKTOP-6VS4LIF with PID 31984 (started by Pari Paramasivam in D:\Anitha\AnithaLearningDocs\CGI\cginederlandassessment-recipe-cgi-assessment-1-6b253eafb18a\recipeapp)
+2023-09-03 17:28:28.235  INFO 31984 --- [main] c.c.r.resource.RecipeAppControllerIT     : No active profile set, falling back to 1 default profile: "default"
+2023-09-03 17:28:29.343  INFO 31984 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 0 (http)
+2023-09-03 17:28:29.354  INFO 31984 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-09-03 17:28:29.356  INFO 31984 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.73]
+2023-09-03 17:28:29.482  INFO 31984 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-09-03 17:28:29.482  INFO 31984 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1230 ms
+2023-09-03 17:28:30.636  INFO 31984 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring TestDispatcherServlet ''
+2023-09-03 17:28:30.636  INFO 31984 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2023-09-03 17:28:30.637  INFO 31984 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
+2023-09-03 17:28:30.702  INFO 31984 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 52970 (http) with context path ''
+2023-09-03 17:28:30.711  INFO 31984 --- [main] c.c.r.resource.RecipeAppControllerIT     : Started RecipeAppControllerIT in 2.817 seconds (JVM running for 5.214)
+2023-09-03 17:28:30.862  INFO 31984 --- [main] c.c.r.s.impl.GetRecipeInfoServiceImpl    : Retrived record class com.cgi.recipe.service.impl.GetRecipeInfoServiceImpl
+2023-09-03 17:28:30.862 ERROR 31984 --- [main] c.c.r.s.impl.GetRecipeInfoServiceImpl    : Recipe Not Found Exception class com.cgi.recipe.service.impl.GetRecipeInfoServiceImpl
+2023-09-03 17:28:30.909  INFO 31984 --- [main] c.c.r.s.impl.GetRecipeInfoServiceImpl    : Retrived record class com.cgi.recipe.service.impl.GetRecipeInfoServiceImpl
+2023-09-03 18:05:49.256  INFO 34356 --- [main] com.cgi.recipe.RecipeApplication         : Starting RecipeApplication using Java 17.0.8 on DESKTOP-6VS4LIF with PID 34356 (D:\Anitha\AnithaLearningDocs\CGI\cginederlandassessment-recipe-cgi-assessment-1-6b253eafb18a\recipeapp\target\classes started by Pari Paramasivam in D:\Anitha\AnithaLearningDocs\CGI\cginederlandassessment-recipe-cgi-assessment-1-6b253eafb18a\recipeapp)
+2023-09-03 18:05:49.259  INFO 34356 --- [main] com.cgi.recipe.RecipeApplication         : No active profile set, falling back to 1 default profile: "default"
+2023-09-03 18:05:50.033  INFO 34356 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8004 (http)
+2023-09-03 18:05:50.041  INFO 34356 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-09-03 18:05:50.042  INFO 34356 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.73]
+2023-09-03 18:05:50.163  INFO 34356 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-09-03 18:05:50.163  INFO 34356 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 872 ms
+2023-09-03 18:05:50.812  INFO 34356 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8004 (http) with context path ''
+2023-09-03 18:05:50.824  INFO 34356 --- [main] com.cgi.recipe.RecipeApplication         : Started RecipeApplication in 1.862 seconds (JVM running for 2.148)
+2023-09-03 18:06:04.841  INFO 34356 --- [http-nio-8004-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-09-03 18:06:04.841  INFO 34356 --- [http-nio-8004-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-09-03 18:06:04.842  INFO 34356 --- [http-nio-8004-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-09-03 18:06:05.173  INFO 34356 --- [http-nio-8004-exec-3] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 247 ms
+2023-09-03 18:06:34.800  INFO 34356 --- [http-nio-8004-exec-5] c.c.r.s.impl.GetRecipeInfoServiceImpl    : Retrived record class com.cgi.recipe.service.impl.GetRecipeInfoServiceImpl
+2023-09-03 18:11:48.555  INFO 10656 --- [main] c.c.r.resource.RecipeAppControllerIT     : Starting RecipeAppControllerIT using Java 17.0.8 on DESKTOP-6VS4LIF with PID 10656 (started by Pari Paramasivam in D:\Anitha\AnithaLearningDocs\CGI\cginederlandassessment-recipe-cgi-assessment-1-6b253eafb18a\recipeapp)
+2023-09-03 18:11:48.556  INFO 10656 --- [main] c.c.r.resource.RecipeAppControllerIT     : No active profile set, falling back to 1 default profile: "default"
+2023-09-03 18:11:49.650  INFO 10656 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 0 (http)
+2023-09-03 18:11:49.663  INFO 10656 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-09-03 18:11:49.663  INFO 10656 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.73]
+2023-09-03 18:11:49.780  INFO 10656 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-09-03 18:11:49.781  INFO 10656 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1211 ms
+2023-09-03 18:11:50.903  INFO 10656 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring TestDispatcherServlet ''
+2023-09-03 18:11:50.903  INFO 10656 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2023-09-03 18:11:50.904  INFO 10656 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 0 ms
+2023-09-03 18:11:50.959  INFO 10656 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 54159 (http) with context path ''
+2023-09-03 18:11:50.968  INFO 10656 --- [main] c.c.r.resource.RecipeAppControllerIT     : Started RecipeAppControllerIT in 2.745 seconds (JVM running for 5.014)
+2023-09-03 18:11:51.100  INFO 10656 --- [main] c.c.r.s.impl.GetRecipeInfoServiceImpl    : Retrived record class com.cgi.recipe.service.impl.GetRecipeInfoServiceImpl
+2023-09-03 18:11:51.101 ERROR 10656 --- [main] c.c.r.s.impl.GetRecipeInfoServiceImpl    : Recipe Not Found Exception class com.cgi.recipe.service.impl.GetRecipeInfoServiceImpl
+2023-09-03 18:11:51.153  INFO 10656 --- [main] c.c.r.s.impl.GetRecipeInfoServiceImpl    : Retrived record class com.cgi.recipe.service.impl.GetRecipeInfoServiceImpl
+2023-09-03 18:24:25.080  INFO 38152 --- [main] c.c.r.resource.RecipeAppControllerIT     : Starting RecipeAppControllerIT using Java 17.0.8 on DESKTOP-6VS4LIF with PID 38152 (started by Pari Paramasivam in D:\Anitha\AnithaLearningDocs\CGI\cginederlandassessment-recipe-cgi-assessment-1-6b253eafb18a\recipeapp)
+2023-09-03 18:24:25.082  INFO 38152 --- [main] c.c.r.resource.RecipeAppControllerIT     : No active profile set, falling back to 1 default profile: "default"
+2023-09-03 18:24:26.172  INFO 38152 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 0 (http)
+2023-09-03 18:24:26.185  INFO 38152 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-09-03 18:24:26.186  INFO 38152 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.73]
+2023-09-03 18:24:26.305  INFO 38152 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-09-03 18:24:26.305  INFO 38152 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1205 ms
+2023-09-03 18:24:27.478  INFO 38152 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring TestDispatcherServlet ''
+2023-09-03 18:24:27.478  INFO 38152 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2023-09-03 18:24:27.480  INFO 38152 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 2 ms
+2023-09-03 18:24:27.539  INFO 38152 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 54404 (http) with context path ''
+2023-09-03 18:24:27.550  INFO 38152 --- [main] c.c.r.resource.RecipeAppControllerIT     : Started RecipeAppControllerIT in 2.783 seconds (JVM running for 5.158)
+2023-09-03 18:24:27.695  INFO 38152 --- [main] c.c.r.s.impl.GetRecipeInfoServiceImpl    : Retrived record class com.cgi.recipe.service.impl.GetRecipeInfoServiceImpl
+2023-09-03 18:24:27.695 ERROR 38152 --- [main] c.c.r.s.impl.GetRecipeInfoServiceImpl    : Recipe Not Found Exception class com.cgi.recipe.service.impl.GetRecipeInfoServiceImpl
+2023-09-03 18:24:27.754  INFO 38152 --- [main] c.c.r.s.impl.GetRecipeInfoServiceImpl    : Retrived record class com.cgi.recipe.service.impl.GetRecipeInfoServiceImpl
+2023-09-03 18:38:39.045  INFO 9744 --- [main] com.cgi.recipe.RecipeApplication         : Starting RecipeApplication using Java 17.0.8 on DESKTOP-6VS4LIF with PID 9744 (D:\Anitha\AnithaLearningDocs\CGI\cginederlandassessment-recipe-cgi-assessment-1-6b253eafb18a\recipeapp\target\classes started by Pari Paramasivam in D:\Anitha\AnithaLearningDocs\CGI\cginederlandassessment-recipe-cgi-assessment-1-6b253eafb18a\recipeapp)
+2023-09-03 18:38:39.047  INFO 9744 --- [main] com.cgi.recipe.RecipeApplication         : No active profile set, falling back to 1 default profile: "default"
+2023-09-03 18:38:39.835  INFO 9744 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8004 (http)
+2023-09-03 18:38:39.844  INFO 9744 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-09-03 18:38:39.844  INFO 9744 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.73]
+2023-09-03 18:38:39.942  INFO 9744 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-09-03 18:38:39.942  INFO 9744 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 867 ms
+2023-09-03 18:38:40.599  INFO 9744 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8004 (http) with context path ''
+2023-09-03 18:38:40.610  INFO 9744 --- [main] com.cgi.recipe.RecipeApplication         : Started RecipeApplication in 1.87 seconds (JVM running for 2.159)
+2023-09-03 18:38:50.969  INFO 9744 --- [http-nio-8004-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-09-03 18:38:50.969  INFO 9744 --- [http-nio-8004-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-09-03 18:38:50.969  INFO 9744 --- [http-nio-8004-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2023-09-03 18:38:51.628  INFO 9744 --- [http-nio-8004-exec-6] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 261 ms
+2023-09-03 18:39:45.685  INFO 9744 --- [http-nio-8004-exec-1] c.c.r.s.impl.GetRecipeInfoServiceImpl    : Retrived record class com.cgi.recipe.service.impl.GetRecipeInfoServiceImpl
+2023-09-03 19:13:56.621  INFO 35820 --- [main] com.cgi.recipe.RecipeApplication         : Starting RecipeApplication using Java 17.0.8 on DESKTOP-6VS4LIF with PID 35820 (D:\Anitha\AnithaLearningDocs\CGI\cginederlandassessment-recipe-cgi-assessment-1-6b253eafb18a\recipeapp\target\classes started by Pari Paramasivam in D:\Anitha\AnithaLearningDocs\CGI\cginederlandassessment-recipe-cgi-assessment-1-6b253eafb18a\recipeapp)
+2023-09-03 19:13:56.623  INFO 35820 --- [main] com.cgi.recipe.RecipeApplication         : No active profile set, falling back to 1 default profile: "default"
+2023-09-03 19:13:57.410  INFO 35820 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8004 (http)
+2023-09-03 19:13:57.422  INFO 35820 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-09-03 19:13:57.422  INFO 35820 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.73]
+2023-09-03 19:13:57.524  INFO 35820 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-09-03 19:13:57.524  INFO 35820 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 874 ms
+2023-09-03 19:13:58.190  INFO 35820 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8004 (http) with context path ''
+2023-09-03 19:13:58.199  INFO 35820 --- [main] com.cgi.recipe.RecipeApplication         : Started RecipeApplication in 1.882 seconds (JVM running for 2.181)
+2023-09-03 19:14:20.459  INFO 35820 --- [http-nio-8004-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-09-03 19:14:20.460  INFO 35820 --- [http-nio-8004-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-09-03 19:14:20.461  INFO 35820 --- [http-nio-8004-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-09-03 19:14:20.872  INFO 35820 --- [http-nio-8004-exec-1] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 315 ms
+2023-09-03 19:14:46.133  INFO 35820 --- [http-nio-8004-exec-3] c.c.r.s.impl.GetRecipeInfoServiceImpl    : Retrived record class com.cgi.recipe.service.impl.GetRecipeInfoServiceImpl
+2023-09-03 19:14:48.570  INFO 35820 --- [http-nio-8004-exec-6] c.c.r.s.impl.GetRecipeInfoServiceImpl    : Retrived record class com.cgi.recipe.service.impl.GetRecipeInfoServiceImpl

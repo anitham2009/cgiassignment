@@ -1,0 +1,3 @@
+2018-09-10 17:50:16,501 ERROR [http-nio-8080-exec-10] LoggingAspect: Exception in com.fluentgrid.repapp.web.rest.EventsResource.search() with cause = null
+2018-09-10 17:50:16,511 ERROR [http-nio-8080-exec-10] [dispatcherServlet]: Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.NullPointerException] with root cause
+2018-09-10 17:50:50,953 ERROR [http-nio-8080-exec-5] LoggingAspect: Exception in com.fluentgrid.repapp.web.rest.EventsResource.search() with cause = null

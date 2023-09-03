@@ -1,0 +1,3 @@
+com\cgi\loganalyzer\resource\LogAnalyzerControllerIT.class
+com\cgi\loganalyzer\dao\impl\LogAnalyzerDaoImplTest.class
+com\cgi\loganalyzer\service\impl\LogAnalyzerServiceImplTest.class

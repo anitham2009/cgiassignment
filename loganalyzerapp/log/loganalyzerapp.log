@@ -1,0 +1,149 @@
+2023-09-03 15:54:51.799  INFO 13452 --- [main] c.c.loganalyzer.LogAnalyzerApplication   : Starting LogAnalyzerApplication using Java 17.0.8 on DESKTOP-6VS4LIF with PID 13452 (D:\Anitha\AnithaLearningDocs\CGI\cginederlandassessment-recipe-cgi-assessment-1-6b253eafb18a\loganalyzerapp\target\classes started by Pari Paramasivam in D:\Anitha\AnithaLearningDocs\CGI\cginederlandassessment-recipe-cgi-assessment-1-6b253eafb18a\loganalyzerapp)
+2023-09-03 15:54:51.801  INFO 13452 --- [main] c.c.loganalyzer.LogAnalyzerApplication   : No active profile set, falling back to 1 default profile: "default"
+2023-09-03 15:54:52.678  INFO 13452 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8005 (http)
+2023-09-03 15:54:52.700  INFO 13452 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-09-03 15:54:52.700  INFO 13452 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.73]
+2023-09-03 15:54:52.803  INFO 13452 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-09-03 15:54:52.803  INFO 13452 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 967 ms
+2023-09-03 15:54:53.544  INFO 13452 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8005 (http) with context path ''
+2023-09-03 15:54:53.554  INFO 13452 --- [main] c.c.loganalyzer.LogAnalyzerApplication   : Started LogAnalyzerApplication in 2.08 seconds (JVM running for 2.398)
+2023-09-03 15:55:10.627  INFO 13452 --- [http-nio-8005-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-09-03 15:55:10.631  INFO 13452 --- [http-nio-8005-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-09-03 15:55:10.633  INFO 13452 --- [http-nio-8005-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2023-09-03 15:55:11.328  INFO 13452 --- [http-nio-8005-exec-1] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 464 ms
+2023-09-03 15:55:15.386  INFO 13452 --- [http-nio-8005-exec-3] c.c.l.s.impl.LogAnalyzerServiceImpl      : Read log file class com.cgi.loganalyzer.service.impl.LogAnalyzerServiceImpl
+2023-09-03 15:55:15.415  INFO 13452 --- [http-nio-8005-exec-3] c.c.l.s.impl.LogAnalyzerServiceImpl      : Set log details in response class com.cgi.loganalyzer.service.impl.LogAnalyzerServiceImpl
+2023-09-03 17:57:59.826  INFO 28576 --- [main] c.c.l.resource.LogAnalyzerControllerIT   : Starting LogAnalyzerControllerIT using Java 17.0.8 on DESKTOP-6VS4LIF with PID 28576 (started by Pari Paramasivam in D:\Anitha\AnithaLearningDocs\CGI\cginederlandassessment-recipe-cgi-assessment-1-6b253eafb18a\loganalyzerapp)
+2023-09-03 17:57:59.837  INFO 28576 --- [main] c.c.l.resource.LogAnalyzerControllerIT   : No active profile set, falling back to 1 default profile: "default"
+2023-09-03 17:58:00.678  INFO 28576 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 0 (http)
+2023-09-03 17:58:00.687  INFO 28576 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-09-03 17:58:00.687  INFO 28576 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.73]
+2023-09-03 17:58:00.786  INFO 28576 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-09-03 17:58:00.787  INFO 28576 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 936 ms
+2023-09-03 17:58:01.663  INFO 28576 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring TestDispatcherServlet ''
+2023-09-03 17:58:01.663  INFO 28576 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2023-09-03 17:58:01.664  INFO 28576 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
+2023-09-03 17:58:01.719  INFO 28576 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 53841 (http) with context path ''
+2023-09-03 17:58:01.728  INFO 28576 --- [main] c.c.l.resource.LogAnalyzerControllerIT   : Started LogAnalyzerControllerIT in 2.126 seconds (JVM running for 3.229)
+2023-09-03 17:58:01.933  INFO 28576 --- [main] c.c.l.s.impl.LogAnalyzerServiceImpl      : Read log file class com.cgi.loganalyzer.service.impl.LogAnalyzerServiceImpl
+2023-09-03 17:58:01.946  INFO 28576 --- [main] c.c.l.s.impl.LogAnalyzerServiceImpl      : Set log details in response class com.cgi.loganalyzer.service.impl.LogAnalyzerServiceImpl
+2023-09-03 17:58:13.477  INFO 27552 --- [main] c.c.l.resource.LogAnalyzerControllerIT   : Starting LogAnalyzerControllerIT using Java 17.0.8 on DESKTOP-6VS4LIF with PID 27552 (started by Pari Paramasivam in D:\Anitha\AnithaLearningDocs\CGI\cginederlandassessment-recipe-cgi-assessment-1-6b253eafb18a\loganalyzerapp)
+2023-09-03 17:58:13.479  INFO 27552 --- [main] c.c.l.resource.LogAnalyzerControllerIT   : No active profile set, falling back to 1 default profile: "default"
+2023-09-03 17:58:14.769  INFO 27552 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 0 (http)
+2023-09-03 17:58:14.781  INFO 27552 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-09-03 17:58:14.782  INFO 27552 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.73]
+2023-09-03 17:58:14.900  INFO 27552 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-09-03 17:58:14.900  INFO 27552 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1398 ms
+2023-09-03 17:58:16.202  INFO 27552 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring TestDispatcherServlet ''
+2023-09-03 17:58:16.203  INFO 27552 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2023-09-03 17:58:16.204  INFO 27552 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
+2023-09-03 17:58:16.283  INFO 27552 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 53861 (http) with context path ''
+2023-09-03 17:58:16.293  INFO 27552 --- [main] c.c.l.resource.LogAnalyzerControllerIT   : Started LogAnalyzerControllerIT in 3.246 seconds (JVM running for 5.277)
+2023-09-03 17:58:16.576  INFO 27552 --- [main] c.c.l.s.impl.LogAnalyzerServiceImpl      : Read log file class com.cgi.loganalyzer.service.impl.LogAnalyzerServiceImpl
+2023-09-03 17:58:16.591  INFO 27552 --- [main] c.c.l.s.impl.LogAnalyzerServiceImpl      : Set log details in response class com.cgi.loganalyzer.service.impl.LogAnalyzerServiceImpl
+2023-09-03 17:58:16.656  INFO 27552 --- [main] c.c.l.s.impl.LogAnalyzerServiceImpl      : Read log file class com.cgi.loganalyzer.service.impl.LogAnalyzerServiceImpl
+2023-09-03 17:58:16.661  INFO 27552 --- [main] c.c.l.s.impl.LogAnalyzerServiceImpl      : Set log details in response class com.cgi.loganalyzer.service.impl.LogAnalyzerServiceImpl
+2023-09-03 17:58:16.666  INFO 27552 --- [main] c.c.l.s.impl.LogAnalyzerServiceImpl      : Read log file class com.cgi.loganalyzer.service.impl.LogAnalyzerServiceImpl
+2023-09-03 17:58:50.869  INFO 10312 --- [main] c.c.loganalyzer.LogAnalyzerApplication   : Starting LogAnalyzerApplication using Java 17.0.8 on DESKTOP-6VS4LIF with PID 10312 (D:\Anitha\AnithaLearningDocs\CGI\cginederlandassessment-recipe-cgi-assessment-1-6b253eafb18a\loganalyzerapp\target\classes started by Pari Paramasivam in D:\Anitha\AnithaLearningDocs\CGI\cginederlandassessment-recipe-cgi-assessment-1-6b253eafb18a\loganalyzerapp)
+2023-09-03 17:58:50.871  INFO 10312 --- [main] c.c.loganalyzer.LogAnalyzerApplication   : No active profile set, falling back to 1 default profile: "default"
+2023-09-03 17:58:51.642  INFO 10312 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8005 (http)
+2023-09-03 17:58:51.651  INFO 10312 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-09-03 17:58:51.651  INFO 10312 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.73]
+2023-09-03 17:58:51.737  INFO 10312 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-09-03 17:58:51.737  INFO 10312 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 836 ms
+2023-09-03 17:58:52.386  INFO 10312 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8005 (http) with context path ''
+2023-09-03 17:58:52.397  INFO 10312 --- [main] c.c.loganalyzer.LogAnalyzerApplication   : Started LogAnalyzerApplication in 1.821 seconds (JVM running for 2.101)
+2023-09-03 17:59:04.286  INFO 10312 --- [http-nio-8005-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-09-03 17:59:04.286  INFO 10312 --- [http-nio-8005-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-09-03 17:59:04.286  INFO 10312 --- [http-nio-8005-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2023-09-03 17:59:04.661  INFO 10312 --- [http-nio-8005-exec-2] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 234 ms
+2023-09-03 17:59:10.537  INFO 10312 --- [http-nio-8005-exec-4] c.c.l.s.impl.LogAnalyzerServiceImpl      : Read log file class com.cgi.loganalyzer.service.impl.LogAnalyzerServiceImpl
+2023-09-03 17:59:10.554  INFO 10312 --- [http-nio-8005-exec-4] c.c.l.s.impl.LogAnalyzerServiceImpl      : Set log details in response class com.cgi.loganalyzer.service.impl.LogAnalyzerServiceImpl
+2023-09-03 17:59:18.791  INFO 10312 --- [http-nio-8005-exec-3] c.c.l.s.impl.LogAnalyzerServiceImpl      : Read log file class com.cgi.loganalyzer.service.impl.LogAnalyzerServiceImpl
+2023-09-03 17:59:18.803  INFO 10312 --- [http-nio-8005-exec-3] c.c.l.s.impl.LogAnalyzerServiceImpl      : Set log details in response class com.cgi.loganalyzer.service.impl.LogAnalyzerServiceImpl
+2023-09-03 18:05:07.518  INFO 30208 --- [main] c.c.loganalyzer.LogAnalyzerApplication   : Starting LogAnalyzerApplication using Java 17.0.8 on DESKTOP-6VS4LIF with PID 30208 (D:\Anitha\AnithaLearningDocs\CGI\cginederlandassessment-recipe-cgi-assessment-1-6b253eafb18a\loganalyzerapp\target\classes started by Pari Paramasivam in D:\Anitha\AnithaLearningDocs\CGI\cginederlandassessment-recipe-cgi-assessment-1-6b253eafb18a\loganalyzerapp)
+2023-09-03 18:05:07.521  INFO 30208 --- [main] c.c.loganalyzer.LogAnalyzerApplication   : No active profile set, falling back to 1 default profile: "default"
+2023-09-03 18:05:08.281  INFO 30208 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8005 (http)
+2023-09-03 18:05:08.289  INFO 30208 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-09-03 18:05:08.290  INFO 30208 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.73]
+2023-09-03 18:05:08.378  INFO 30208 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-09-03 18:05:08.378  INFO 30208 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 829 ms
+2023-09-03 18:05:09.038  INFO 30208 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8005 (http) with context path ''
+2023-09-03 18:05:09.046  INFO 30208 --- [main] c.c.loganalyzer.LogAnalyzerApplication   : Started LogAnalyzerApplication in 1.823 seconds (JVM running for 2.085)
+2023-09-03 18:05:15.944  INFO 30208 --- [http-nio-8005-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-09-03 18:05:15.945  INFO 30208 --- [http-nio-8005-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-09-03 18:05:15.946  INFO 30208 --- [http-nio-8005-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-09-03 18:05:16.408  INFO 30208 --- [http-nio-8005-exec-2] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 241 ms
+2023-09-03 18:05:19.521  INFO 30208 --- [http-nio-8005-exec-5] c.c.l.s.impl.LogAnalyzerServiceImpl      : Read log file class com.cgi.loganalyzer.service.impl.LogAnalyzerServiceImpl
+2023-09-03 18:05:19.538  INFO 30208 --- [http-nio-8005-exec-5] c.c.l.s.impl.LogAnalyzerServiceImpl      : Set log details in response class com.cgi.loganalyzer.service.impl.LogAnalyzerServiceImpl
+2023-09-03 18:05:26.737  INFO 30208 --- [http-nio-8005-exec-6] c.c.l.s.impl.LogAnalyzerServiceImpl      : Read log file class com.cgi.loganalyzer.service.impl.LogAnalyzerServiceImpl
+2023-09-03 18:05:26.752  INFO 30208 --- [http-nio-8005-exec-6] c.c.l.s.impl.LogAnalyzerServiceImpl      : Set log details in response class com.cgi.loganalyzer.service.impl.LogAnalyzerServiceImpl
+2023-09-03 18:05:33.429  INFO 30208 --- [http-nio-8005-exec-4] c.c.l.s.impl.LogAnalyzerServiceImpl      : Read log file class com.cgi.loganalyzer.service.impl.LogAnalyzerServiceImpl
+2023-09-03 18:05:33.437  INFO 30208 --- [http-nio-8005-exec-4] c.c.l.s.impl.LogAnalyzerServiceImpl      : Set log details in response class com.cgi.loganalyzer.service.impl.LogAnalyzerServiceImpl
+2023-09-03 18:10:26.076  INFO 30852 --- [main] c.c.l.resource.LogAnalyzerControllerIT   : Starting LogAnalyzerControllerIT using Java 17.0.8 on DESKTOP-6VS4LIF with PID 30852 (started by Pari Paramasivam in D:\Anitha\AnithaLearningDocs\CGI\cginederlandassessment-recipe-cgi-assessment-1-6b253eafb18a\loganalyzerapp)
+2023-09-03 18:10:26.077  INFO 30852 --- [main] c.c.l.resource.LogAnalyzerControllerIT   : No active profile set, falling back to 1 default profile: "default"
+2023-09-03 18:10:27.253  INFO 30852 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 0 (http)
+2023-09-03 18:10:27.266  INFO 30852 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-09-03 18:10:27.266  INFO 30852 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.73]
+2023-09-03 18:10:27.382  INFO 30852 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-09-03 18:10:27.382  INFO 30852 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1281 ms
+2023-09-03 18:10:28.588  INFO 30852 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring TestDispatcherServlet ''
+2023-09-03 18:10:28.589  INFO 30852 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2023-09-03 18:10:28.590  INFO 30852 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
+2023-09-03 18:10:28.645  INFO 30852 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 54116 (http) with context path ''
+2023-09-03 18:10:28.655  INFO 30852 --- [main] c.c.l.resource.LogAnalyzerControllerIT   : Started LogAnalyzerControllerIT in 2.929 seconds (JVM running for 4.902)
+2023-09-03 18:10:28.888  INFO 30852 --- [main] c.c.l.s.impl.LogAnalyzerServiceImpl      : Read log file class com.cgi.loganalyzer.service.impl.LogAnalyzerServiceImpl
+2023-09-03 18:10:28.897  INFO 30852 --- [main] c.c.l.s.impl.LogAnalyzerServiceImpl      : Set log details in response class com.cgi.loganalyzer.service.impl.LogAnalyzerServiceImpl
+2023-09-03 18:10:28.949  INFO 30852 --- [main] c.c.l.s.impl.LogAnalyzerServiceImpl      : Read log file class com.cgi.loganalyzer.service.impl.LogAnalyzerServiceImpl
+2023-09-03 18:10:28.965  INFO 30852 --- [main] c.c.l.s.impl.LogAnalyzerServiceImpl      : Read log file class com.cgi.loganalyzer.service.impl.LogAnalyzerServiceImpl
+2023-09-03 18:10:28.966  INFO 30852 --- [main] c.c.l.s.impl.LogAnalyzerServiceImpl      : Set log details in response class com.cgi.loganalyzer.service.impl.LogAnalyzerServiceImpl
+2023-09-03 18:10:28.969  INFO 30852 --- [main] c.c.l.s.impl.LogAnalyzerServiceImpl      : Read log file class com.cgi.loganalyzer.service.impl.LogAnalyzerServiceImpl
+2023-09-03 18:34:37.533  INFO 36236 --- [main] c.c.l.resource.LogAnalyzerControllerIT   : Starting LogAnalyzerControllerIT using Java 17.0.8 on DESKTOP-6VS4LIF with PID 36236 (started by Pari Paramasivam in D:\Anitha\AnithaLearningDocs\CGI\cginederlandassessment-recipe-cgi-assessment-1-6b253eafb18a\loganalyzerapp)
+2023-09-03 18:34:37.534  INFO 36236 --- [main] c.c.l.resource.LogAnalyzerControllerIT   : No active profile set, falling back to 1 default profile: "default"
+2023-09-03 18:34:38.674  INFO 36236 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 0 (http)
+2023-09-03 18:34:38.687  INFO 36236 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-09-03 18:34:38.688  INFO 36236 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.73]
+2023-09-03 18:34:38.817  INFO 36236 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-09-03 18:34:38.817  INFO 36236 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1260 ms
+2023-09-03 18:34:40.018  INFO 36236 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring TestDispatcherServlet ''
+2023-09-03 18:34:40.018  INFO 36236 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2023-09-03 18:34:40.019  INFO 36236 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
+2023-09-03 18:34:40.086  INFO 36236 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 54613 (http) with context path ''
+2023-09-03 18:34:40.098  INFO 36236 --- [main] c.c.l.resource.LogAnalyzerControllerIT   : Started LogAnalyzerControllerIT in 2.932 seconds (JVM running for 4.975)
+2023-09-03 18:34:40.352  INFO 36236 --- [main] c.c.l.s.impl.LogAnalyzerServiceImpl      : Read log file class com.cgi.loganalyzer.service.impl.LogAnalyzerServiceImpl
+2023-09-03 18:34:40.365  INFO 36236 --- [main] c.c.l.s.impl.LogAnalyzerServiceImpl      : Set log details in response class com.cgi.loganalyzer.service.impl.LogAnalyzerServiceImpl
+2023-09-03 18:34:40.422  INFO 36236 --- [main] c.c.l.s.impl.LogAnalyzerServiceImpl      : Read log file class com.cgi.loganalyzer.service.impl.LogAnalyzerServiceImpl
+2023-09-03 18:34:40.432  INFO 36236 --- [main] c.c.l.s.impl.LogAnalyzerServiceImpl      : Read log file class com.cgi.loganalyzer.service.impl.LogAnalyzerServiceImpl
+2023-09-03 18:34:40.433  INFO 36236 --- [main] c.c.l.s.impl.LogAnalyzerServiceImpl      : Set log details in response class com.cgi.loganalyzer.service.impl.LogAnalyzerServiceImpl
+2023-09-03 18:34:40.438  INFO 36236 --- [main] c.c.l.s.impl.LogAnalyzerServiceImpl      : Read log file class com.cgi.loganalyzer.service.impl.LogAnalyzerServiceImpl
+2023-09-03 18:53:30.614  INFO 24880 --- [main] c.c.loganalyzer.LogAnalyzerApplication   : Starting LogAnalyzerApplication using Java 17.0.8 on DESKTOP-6VS4LIF with PID 24880 (D:\Anitha\AnithaLearningDocs\CGI\cginederlandassessment-recipe-cgi-assessment-1-6b253eafb18a\loganalyzerapp\target\classes started by Pari Paramasivam in D:\Anitha\AnithaLearningDocs\CGI\cginederlandassessment-recipe-cgi-assessment-1-6b253eafb18a\loganalyzerapp)
+2023-09-03 18:53:30.615  INFO 24880 --- [main] c.c.loganalyzer.LogAnalyzerApplication   : No active profile set, falling back to 1 default profile: "default"
+2023-09-03 18:53:31.398  INFO 24880 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8005 (http)
+2023-09-03 18:53:31.409  INFO 24880 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-09-03 18:53:31.410  INFO 24880 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.73]
+2023-09-03 18:53:31.508  INFO 24880 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-09-03 18:53:31.508  INFO 24880 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 860 ms
+2023-09-03 18:53:32.145  INFO 24880 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8005 (http) with context path ''
+2023-09-03 18:53:32.153  INFO 24880 --- [main] c.c.loganalyzer.LogAnalyzerApplication   : Started LogAnalyzerApplication in 1.817 seconds (JVM running for 2.093)
+2023-09-03 18:53:44.716  INFO 24880 --- [http-nio-8005-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-09-03 18:53:44.717  INFO 24880 --- [http-nio-8005-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-09-03 18:53:44.718  INFO 24880 --- [http-nio-8005-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-09-03 18:53:45.089  INFO 24880 --- [http-nio-8005-exec-1] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 263 ms
+2023-09-03 18:53:54.800  INFO 24880 --- [http-nio-8005-exec-3] c.c.l.s.impl.LogAnalyzerServiceImpl      : Read log file class com.cgi.loganalyzer.service.impl.LogAnalyzerServiceImpl
+2023-09-03 18:53:54.819  INFO 24880 --- [http-nio-8005-exec-3] c.c.l.s.impl.LogAnalyzerServiceImpl      : Set log details in response class com.cgi.loganalyzer.service.impl.LogAnalyzerServiceImpl
+2023-09-03 18:55:33.459  INFO 24880 --- [http-nio-8005-exec-3] c.c.l.s.impl.LogAnalyzerServiceImpl      : Read log file class com.cgi.loganalyzer.service.impl.LogAnalyzerServiceImpl
+2023-09-03 18:55:33.476  INFO 24880 --- [http-nio-8005-exec-3] c.c.l.s.impl.LogAnalyzerServiceImpl      : Set log details in response class com.cgi.loganalyzer.service.impl.LogAnalyzerServiceImpl
+2023-09-03 19:14:05.972  INFO 31064 --- [main] c.c.loganalyzer.LogAnalyzerApplication   : Starting LogAnalyzerApplication using Java 17.0.8 on DESKTOP-6VS4LIF with PID 31064 (D:\Anitha\AnithaLearningDocs\CGI\cginederlandassessment-recipe-cgi-assessment-1-6b253eafb18a\loganalyzerapp\target\classes started by Pari Paramasivam in D:\Anitha\AnithaLearningDocs\CGI\cginederlandassessment-recipe-cgi-assessment-1-6b253eafb18a\loganalyzerapp)
+2023-09-03 19:14:05.973  INFO 31064 --- [main] c.c.loganalyzer.LogAnalyzerApplication   : No active profile set, falling back to 1 default profile: "default"
+2023-09-03 19:14:06.792  INFO 31064 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8005 (http)
+2023-09-03 19:14:06.800  INFO 31064 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-09-03 19:14:06.801  INFO 31064 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.73]
+2023-09-03 19:14:06.911  INFO 31064 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-09-03 19:14:06.911  INFO 31064 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 901 ms
+2023-09-03 19:14:07.577  INFO 31064 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8005 (http) with context path ''
+2023-09-03 19:14:07.585  INFO 31064 --- [main] c.c.loganalyzer.LogAnalyzerApplication   : Started LogAnalyzerApplication in 1.918 seconds (JVM running for 2.202)
+2023-09-03 19:14:13.499  INFO 31064 --- [http-nio-8005-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-09-03 19:14:13.499  INFO 31064 --- [http-nio-8005-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-09-03 19:14:13.500  INFO 31064 --- [http-nio-8005-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-09-03 19:14:13.610  INFO 31064 --- [http-nio-8005-exec-2] c.c.l.s.impl.LogAnalyzerServiceImpl      : Read log file class com.cgi.loganalyzer.service.impl.LogAnalyzerServiceImpl
+2023-09-03 19:14:13.627  INFO 31064 --- [http-nio-8005-exec-2] c.c.l.s.impl.LogAnalyzerServiceImpl      : Set log details in response class com.cgi.loganalyzer.service.impl.LogAnalyzerServiceImpl
