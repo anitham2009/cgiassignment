@@ -21,6 +21,6 @@
 ## Swagger Documentation
 - [Loganalyzer Application Swagger Doc](http://localhost:8005/swagger-ui.html)
 
-##URL
+## URL
 - Note: Start application in port 8005
 - [Get Log details](http://localhost:8005/logging?logType=ERROR&top=3)
