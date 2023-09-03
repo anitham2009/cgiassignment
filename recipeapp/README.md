@@ -8,7 +8,7 @@
 - Maven
 - Junit 
 
-##Code Coverage
+## Code Coverage
 ![Code Coverage](images/codecoverage.png)
 
 ## Achieved functionalities
