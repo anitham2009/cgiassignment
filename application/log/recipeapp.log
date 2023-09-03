@@ -1,0 +1,11 @@
+2023-09-03 07:51:59.049  INFO 27800 --- [main] com.cgi.recipe.RecipeApplication         : Starting RecipeApplication using Java 17.0.8 on DESKTOP-6VS4LIF with PID 27800 (D:\Anitha\AnithaLearningDocs\cginederlandassessment-recipe-cgi-assessment-1-6b253eafb18a\application\target\classes started by Pari Paramasivam in D:\Anitha\AnithaLearningDocs\cginederlandassessment-recipe-cgi-assessment-1-6b253eafb18a\application)
+2023-09-03 07:51:59.050  INFO 27800 --- [main] com.cgi.recipe.RecipeApplication         : No active profile set, falling back to 1 default profile: "default"
+2023-09-03 07:51:59.610  INFO 27800 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8004 (http)
+2023-09-03 07:51:59.616  INFO 27800 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-09-03 07:51:59.627  INFO 27800 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.73]
+2023-09-03 07:51:59.698  INFO 27800 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-09-03 07:51:59.698  INFO 27800 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 619 ms
+2023-09-03 07:52:00.170  INFO 27800 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8004 (http) with context path ''
+2023-09-03 07:52:00.178  INFO 27800 --- [main] com.cgi.recipe.RecipeApplication         : Started RecipeApplication in 1.375 seconds (JVM running for 1.758)
+2023-09-03 07:52:02.284  INFO 27800 --- [RMI TCP Connection(2)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2023-09-03 07:52:02.296  INFO 27800 --- [RMI TCP Connection(2)-127.0.0.1] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
